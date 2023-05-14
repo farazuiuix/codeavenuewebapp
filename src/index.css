@@ -1,3 +1,11 @@
+:root {
+  font-size: 10px;
+  --font-color: #eeeeee;
+  --button-color: #eeeeee;
+   --button--text-color: #222222;
+   --background-color: #111111;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -5,9 +13,37 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  color: var(--font-color);
+  font-family: 'Poppins', sans-serif;
+
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+.row {
+  width: 100%;
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+p {
+  font-size: 1.6rem;
+  margin-bottom: 2rem;
+  color: #cccccc;
+  text-align: left;
+}
+strong {
+  color: white;
+}
+#codeavenue-background {
+  height: 100vh;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  z-index: -1;
 }

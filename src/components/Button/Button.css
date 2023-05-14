@@ -1,0 +1,24 @@
+.btn-primary {
+  border: 1px solid #242424;
+  background-color: #00000026;
+  padding: 2.3rem 3rem;
+  margin: 0 0.5rem;
+  backdrop-filter: blur(16px);
+  border-radius: 5rem;
+  color: #ffffff;
+  text-transform: uppercase;
+  letter-spacing: 0.3rem;
+  font-weight: bold;
+  font-size: 1.3rem;
+  transition: all 0.2s ease;
+  cursor: pointer;
+}
+.btn-primary:hover {
+  background-color:#ffffff;
+  box-shadow: 0 0 3rem white;
+  color: #222222;
+  border-color: transparent;
+}
+.btn-primary:last-child {
+  margin-right: 0;
+}

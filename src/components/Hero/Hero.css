@@ -1,0 +1,37 @@
+.codeavenue-hero {
+  padding: 16vh 0;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.codeavenue-hero-img {
+  width: 80%;
+  max-width: 545px;
+}
+
+.card {
+  opacity: 0.5;
+  transition: all 0.5s ease;
+}
+.card:hover {
+  opacity: 1;
+  transition: all 0.5s ease;
+}
+.card * {
+  transition: all 0.5s ease;
+}
+.card img { 
+  transform: scale(1) rotate(-6deg);
+}
+.card:hover img {
+  opacity: 1;
+  transform: scale(1.2) rotate(0deg);
+}
+.card:hover .codeavenue-header {
+  opacity: 1;
+  color: white;
+}
+.card:hover p {
+  opacity: 1;
+}

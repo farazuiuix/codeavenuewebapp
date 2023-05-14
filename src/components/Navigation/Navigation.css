@@ -1,0 +1,25 @@
+.codeave-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4rem;
+}
+
+.codeave-nav img {
+  width: 40px;
+}
+.codeave-nav .center-links {
+  margin-left: 10rem;
+}
+.codeave-nav .center-links a {
+  margin: 0 1rem;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-weight: normal;
+  margin-left: 2rem;
+   transition: all 0.2s ease;
+}
+.codeave-nav .center-links a:hover {
+  letter-spacing: 5px;
+  color: white;
+}
